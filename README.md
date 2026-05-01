@@ -113,4 +113,6 @@ git add .
 git commit -m "Initial commit - Clinic System Laravel"
 4. Connect GitHub repository
 git remote add origin https://github.com/YOUR_USERNAME/clinic-system.git
-
+5. Push to GitHub
+git branch -M main
+git push -u origin main
