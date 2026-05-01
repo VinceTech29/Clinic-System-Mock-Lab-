@@ -1,15 +1,17 @@
-PROJECT STRUCTURE
+## PROJECT STRUCTURE
 
 After creating the Laravel project, your repository will look like this:
 
+```
 clinic-system/
 │
 ├── app/
-│   ├── Http/Controllers/
-│   │   ├── PatientController.php
-│   │   ├── DoctorController.php
-│   │   ├── AppointmentController.php
-│   │   └── TransactionController.php
+│   ├── Http/
+│   │   └── Controllers/
+│   │       ├── PatientController.php
+│   │       ├── DoctorController.php
+│   │       ├── AppointmentController.php
+│   │       └── TransactionController.php
 │
 │   ├── Models/
 │   │   ├── Patient.php
@@ -27,8 +29,8 @@ clinic-system/
 ├── resources/
 │   ├── views/
 │   │   ├── layout.blade.php
-│   │   ├── patients/
-│   │   │   └── index.blade.php
+│   │   └── patients/
+│   │       └── index.blade.php
 │
 ├── routes/
 │   └── web.php
@@ -38,6 +40,7 @@ clinic-system/
 ├── composer.json
 ├── package.json
 └── README.md
+```
 
 Create a file named README.md and paste the following:
 
