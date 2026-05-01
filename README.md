@@ -38,7 +38,6 @@ clinic-system/
 ├── composer.json
 ├── package.json
 └── README.md
-README.md
 
 Create a file named README.md and paste the following:
 
